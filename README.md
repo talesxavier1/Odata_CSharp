@@ -15,6 +15,7 @@ O projeto foi criado para que, de forma simples, pudesse habiltar e testar as fe
 #### Bibliotecas utilizadas
 
 [(Microsoft.AspNetCore.OData) Biblioteca utilizada para implementar o Odata V4.](https://www.nuget.org/packages/Microsoft.AspNetCore.OData)
+
 [(System.Data.SQLite) Biblioteca utilizada para a utilização do SQLite.](https://www.nuget.org/packages/System.Data.SQLite)
 
 ------------
