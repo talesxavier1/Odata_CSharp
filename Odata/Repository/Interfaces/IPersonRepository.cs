@@ -2,6 +2,6 @@
 
 namespace Odata.Repository.Interfaces;
 public interface IPersonRepository {
-    public List<PersonModel> getPersons(int take);
+    public List<PersonModel> getPersons(int page);
 }
 

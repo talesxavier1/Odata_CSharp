@@ -12,10 +12,10 @@ public class PersonRepository : IPersonRepository {
         this.sQLiteConnection = SQLiteDBConnection.getConnection();
     }
 
-    public List<PersonModel> getPersons(int take) {
+    public List<PersonModel> getPersons(int page) {
         List<PersonModel> personModels = new List<PersonModel>();
         SQLiteCommand command = sQLiteConnection.CreateCommand();
-        command.CommandText = $"SELECT * FROM Pessoas limit {take}, 100";
+        command.CommandText = $"SELECT * FROM Pessoas limit {(page > 0 ? page : 1) * 100}, 100";
         SQLiteDataReader reader = command.ExecuteReader();
         while (reader.Read()) {
             personModels.Add(new PersonModel {

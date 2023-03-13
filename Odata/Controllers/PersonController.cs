@@ -11,9 +11,9 @@ public class PersonController : ControllerBase {
     [HttpGet]
     [Route("get")]
     [EnableQuery]
-    public ActionResult Get() {
+    public ActionResult<List<PersonModel>> Get([FromQuery] int page) {
         PersonRepository personRepository = new();
-        List<PersonModel> personModels = personRepository.getPersons(100);
-        return Ok();
+        List<PersonModel> personModels = personRepository.getPersons(page);
+        return Ok(personModels);
     }
 }
