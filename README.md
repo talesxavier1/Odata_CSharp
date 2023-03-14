@@ -9,6 +9,7 @@ O projeto foi criado para que, de forma simples, pudesse habiltar e testar as fe
 
 - Visual Studio 2022.
 - .NET 6.
+- SQLiteStudio.
 
 ------------
 
@@ -16,7 +17,7 @@ O projeto foi criado para que, de forma simples, pudesse habiltar e testar as fe
 
 [(Microsoft.AspNetCore.OData) Biblioteca utilizada para implementar o Odata V4.](https://www.nuget.org/packages/Microsoft.AspNetCore.OData)
 
-[(System.Data.SQLite) Biblioteca utilizada para a utilização do SQLite.](https://www.nuget.org/packages/System.Data.SQLite)
+[(System.Data.SQLite) Biblioteca utilizada para a implantação do SQLite.](https://www.nuget.org/packages/System.Data.SQLite)
 
 ------------
 
@@ -28,4 +29,13 @@ O projeto foi criado para que, de forma simples, pudesse habiltar e testar as fe
 ------------
 
 #### Aplicação em funcionamento.
-[![programaRodando](https://lh3.googleusercontent.com/pw/ACtC-3eXfksyPpIwiNC-s2TJpDGrVCAXXyuBWSkapdfHuo_aYQEHgoUPLw4gNPuR_kNpNhya9E6mjo_uqfJV8D_1d3_s5RcnFRWhjKlZYGUjRuoLCC-zxQI9j0kT3N4CtjR0GCIkd8ye0fjyjnexZdBzg9qi=w690-h388-no?authuser=0 "programaRodando")](https://lh3.googleusercontent.com/pw/ACtC-3eXfksyPpIwiNC-s2TJpDGrVCAXXyuBWSkapdfHuo_aYQEHgoUPLw4gNPuR_kNpNhya9E6mjo_uqfJV8D_1d3_s5RcnFRWhjKlZYGUjRuoLCC-zxQI9j0kT3N4CtjR0GCIkd8ye0fjyjnexZdBzg9qi=w690-h388-no?authuser=0 "programaRodando")
+
+- Busca de pessoas com mais de 18 anos.
+![](https://raw.githubusercontent.com/talesxavier1/Arquivos/main/Odata_CSharp/Odata_cshar__p_request_semente_usuarios_mais_de_18.gif )
+
+- Busca com somente CPF e Nome de retorno.
+![](https://raw.githubusercontent.com/talesxavier1/Arquivos/main/Odata_CSharp/Odata_cshar__Somente%20nome%20e%20CPF.gif )
+
+
+- Busca com ordenação de Idade decrescente.
+![](https://raw.githubusercontent.com/talesxavier1/Arquivos/main/Odata_CSharp/Odata_cshar__Idade%20decrescente.gif )
